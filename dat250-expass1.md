@@ -1,6 +1,9 @@
 # DAT250Lab1
 First lab of dat250
 
+Link to hosted demo application:
+
+https://blooming-shelf-16647.herokuapp.com/
 
 
 Problems with running HelloWorld application in Intellij after installation:
