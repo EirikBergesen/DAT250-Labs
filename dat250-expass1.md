@@ -12,3 +12,7 @@ So i restarted the Intellij. I rewrote the code. And like magic, I was allowed t
 Creating account Heroku.
 After creating my account and validating my email, Heroku tells me that my account credidentials are invalid.
 I closed the browser and went to the official Heroku site again, end then it worked.
+
+
+PostgreSQL
+I am not able to use the commands even after doing the install and adding "C:\Program Files\PostgreSQL\13\bin" to PATH.
