@@ -18,7 +18,11 @@ I closed the browser and went to the official Heroku site again, end then it wor
 
 PostgreSQL:
 
-I am not able to use the commands even after doing the install and adding "C:\Program Files\PostgreSQL\13\bin" to PATH.
+I was not able to use the commands even after doing the install and adding "C:\Program Files\PostgreSQL\13\bin" to PATH.
 ![envpic](https://user-images.githubusercontent.com/46929671/132041478-c9fc34eb-3a45-46f0-aed0-006e2db93f13.png)
 ![filepic](https://user-images.githubusercontent.com/46929671/132041697-16468d5d-ddfb-4741-b1a4-ecbe6e787ea0.png)
+It seems that when i added the PATH of PostgreSQL i managed to delete the Heroku path, putting this back in made it work.
+
+
+
 
