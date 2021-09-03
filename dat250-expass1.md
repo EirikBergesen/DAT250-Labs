@@ -24,5 +24,7 @@ I was not able to use the commands even after doing the install and adding "C:\P
 It seems that when i added the PATH of PostgreSQL i managed to delete the Heroku path, putting this back in made it work.
 
 
+I then ran into another problem:
+![probpic](https://user-images.githubusercontent.com/46929671/132044738-e4703c32-7926-4d54-9e55-ebd32c7d07d8.png)
 
 
