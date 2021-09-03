@@ -9,7 +9,6 @@ Intellij would not give me the run application option, and the run-configuration
 So i restarted the Intellij. I rewrote the code. And like magic, I was allowed to run the application.
 
 
-
 Creating account Heroku:
 
 After creating my account and validating my email, Heroku tells me that my account credidentials are invalid.
@@ -26,5 +25,7 @@ It seems that when i added the PATH of PostgreSQL i managed to delete the Heroku
 
 I then ran into another problem:
 ![probpic](https://user-images.githubusercontent.com/46929671/132044738-e4703c32-7926-4d54-9e55-ebd32c7d07d8.png)
+
+Solved by simply typing "chcp 1252" into powershell before doing the command. Credit to various people at: https://stackoverflow.com/questions/20794035/postgresql-warning-console-code-page-437-differs-from-windows-code-page-125
 
 
