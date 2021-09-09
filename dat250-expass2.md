@@ -44,3 +44,5 @@ All my junit tests fail at point 6.
 I assume that my problem might come from not having copied all of the classes from the earlier project, so ill try to do the rest as well.
 
 So I tried to simply put my classes into the jpl-basic project to see if it then worked. It does not i and get the same error.
+![image](https://user-images.githubusercontent.com/46929671/132723366-8571f453-6cce-4042-ac2a-8024bbaf0e13.png)
+
