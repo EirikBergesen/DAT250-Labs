@@ -46,3 +46,19 @@ I assume that my problem might come from not having copied all of the classes fr
 So I tried to simply put my classes into the jpl-basic project to see if it then worked. It does not i and get the same error.
 ![image](https://user-images.githubusercontent.com/46929671/132723366-8571f453-6cce-4042-ac2a-8024bbaf0e13.png)
 
+### After 5 hours of scratching my head and stressing out because of the deadline and being stuck on this stupid problem i can finally present my solution:
+
+
+    persistence-unit name="people" transaction-type="RESOURCE_LOCAL"
+   
+     provider org.eclipse.persistence.jpa.PersistenceProvider /provider
+     
+       class model.Person /class 
+       
+       class model.Family /class 
+       
+       class model.Job /class 
+
+By adding this in the pom file, it finaly worked. Couldnt make it look good in the markdown, so it looks a little wonky.
+![image](https://user-images.githubusercontent.com/46929671/132726275-a06f2426-6295-4cff-b494-830211a8a400.png)
+
