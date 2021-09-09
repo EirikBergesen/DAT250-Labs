@@ -66,4 +66,7 @@ I didn't manage to do the apache derby install correctly, so i ended up getting 
 
 ![image](https://user-images.githubusercontent.com/46929671/132744766-7b3857ec-6b12-4307-adc4-5fdc80e4244c.png)
 
-### Experiment 2
+### Experiment 2:
+
+![image](https://user-images.githubusercontent.com/46929671/132761887-eadaf3d9-f4a3-420d-ae76-b11586bbbccd.png)
+
