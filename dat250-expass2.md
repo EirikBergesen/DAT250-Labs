@@ -38,5 +38,7 @@ Solution:
 Looked at the filestructure from the earlier project and found some of the .jar files that might hold the files that i needed. I then had problems getting intellij to recognise them as libraries. This page helped me here: https://stackoverflow.com/questions/1051640/correct-way-to-add-external-jars-lib-jar-to-an-intellij-idea-project
 
 
-
+#### Problem:
+![image](https://user-images.githubusercontent.com/46929671/132710479-f36db6a0-e570-463f-b14f-0fde7f568df8.png)
+All my junit tests fail at point 6.
 
