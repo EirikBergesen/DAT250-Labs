@@ -62,3 +62,6 @@ So I tried to simply put my classes into the jpl-basic project to see if it then
 By adding this in the pom file, it finaly worked. Couldnt make it look good in the markdown, so it looks a little wonky.
 ![image](https://user-images.githubusercontent.com/46929671/132726275-a06f2426-6295-4cff-b494-830211a8a400.png)
 
+I didn't manage to do the apache derby install correctly, so i ended up getting help from a friend(Martin Eide) whom told me to just use the intellij ultimate edition, which has in-built database visualisation tools.
+![image](https://user-images.githubusercontent.com/46929671/132744766-7b3857ec-6b12-4307-adc4-5fdc80e4244c.png)
+
