@@ -42,3 +42,5 @@ Looked at the filestructure from the earlier project and found some of the .jar 
 ![image](https://user-images.githubusercontent.com/46929671/132710479-f36db6a0-e570-463f-b14f-0fde7f568df8.png)
 All my junit tests fail at point 6.
 I assume that my problem might come from not having copied all of the classes from the earlier project, so ill try to do the rest as well.
+
+So I tried to simply put my classes into the jpl-basic project to see if it then worked. It does not i and get the same error.
