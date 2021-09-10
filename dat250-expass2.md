@@ -1,5 +1,7 @@
 ## DAT250: Software Technology Experiment Assignment 2
 
+Code is in the DAT250Lab2 folder
+
 
 ### Experiment 1:
 
