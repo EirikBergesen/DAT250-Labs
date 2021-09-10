@@ -2,6 +2,8 @@
 
 Code is in the DAT250Lab2 folder
 
+To inspect the tables i used Intellij Ultimate, which has an in-built database visualisation tool.
+
 
 ### Experiment 1:
 
@@ -72,3 +74,19 @@ I didn't manage to do the apache derby install correctly, so i ended up getting 
 
 ![image](https://user-images.githubusercontent.com/46929671/132761887-eadaf3d9-f4a3-420d-ae76-b11586bbbccd.png)
 
+
+The tables created did not correspond as much as i had hoped, as I kind of tought that the "address_person" and "person_address" should be one table, but i guess that is just a mistake on my implementation. This could probably be corrected by letting one of address or person be the table owning the relation, and removing the relation from the other.
+
+I can check that object links are correct by checing the tables and the join tables and that their primary and foreign keys add up correctly.
+
+For example:
+
+![image](https://user-images.githubusercontent.com/46929671/132842776-2dd24e09-a006-428c-8dea-ccf29ff1e136.png)
+
+![image](https://user-images.githubusercontent.com/46929671/132842802-e1d96d1a-60b2-41be-81b6-0c0caeeff266.png)
+
+
+![image](https://user-images.githubusercontent.com/46929671/132842833-cfd37ea6-30ac-48f7-a37c-238a08b60095.png)
+
+
+Here we can se that the keys add up correctly.
