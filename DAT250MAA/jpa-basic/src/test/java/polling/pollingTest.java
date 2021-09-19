@@ -10,7 +10,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class pollingTest {
@@ -80,8 +79,37 @@ public class pollingTest {
         Query q = em.createQuery("select u from Poll u");
 
         // We should have 1 Person in the database
-        Assert.assertTrue(q.getResultList().size() == 1);
+        Assert.assertTrue(q.getResultList().size() >= 1);
 
+        em.close();
+    }
+
+    @Test
+    public void DAOMakePollTest() {
+        EntityManager em = factory.createEntityManager();
+        em.getTransaction().begin();
+
+        PollDAO dao = new PollDAO();
+        User2 user2 = new User2();
+        user2.setUser_name("xxx42069xxxNoScopexxx");
+        em.persist(user2);
+        em.getTransaction().commit();
+
+        Poll poll = new Poll();
+        poll.setPoll_name("ankler for albuer eller albuer for ankler?");
+        poll.setAnswer1("første");
+        poll.setAnswer2("andre");
+        ArrayList<User2> superUsers = new ArrayList<>();
+        superUsers.add(user2);
+        poll.setSuper_users(superUsers);
+
+        dao.persistPoll(poll);
+
+        // Perform a simple query for all the Message entities
+        Query q = em.createQuery("select u from Poll u where u.id = " + poll.getId());
+        //System.out.println(q.getResultList());
+        // We should have 1 Person in the database
+        Assert.assertTrue(q.getResultList().size() == 1);
         em.close();
     }
 }
