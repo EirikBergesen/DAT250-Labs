@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Sep 19 19:45:54 CEST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-017b-ff2a-1a5c-00000e5353a8 
+on database directory C:\Source\pollingdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@3764951d 
+Loaded from file:/C:/Users/eirik/.m2/repository/org/apache/derby/derby/10.15.2.0/derby-10.15.2.0.jar
+java.vendor=Amazon.com Inc.
+java.runtime.version=15.0.2+7
+user.dir=C:\Users\eirik\Documents\GitHub\DAT250Lab2\dat250-jpa-example\eclipselink\jpa-basic
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
