@@ -1,7 +1,13 @@
 #### Mandatory assignment 3
 
 Verifying mongodb using sha256:
+
 ![image](https://user-images.githubusercontent.com/46929671/133789723-7b8e8208-a2df-412f-86a2-e829f251e4ea.png)
+
+
+Insert:
+
+![image](https://user-images.githubusercontent.com/46929671/134016944-78adfa86-ce9d-4397-8785-25730c34d9fa.png)
 
 
 
