@@ -47,6 +47,8 @@ Picture:
 ![image](https://user-images.githubusercontent.com/46929671/134033068-fa534fd8-a0d3-48e7-8f7b-4248d09ef56a.png)
 
 
+This is usefull because now I can access these values in another database. I could not really get it to work properly.
+
 #### Installing MongoDB
 Problem:
 I forgot to take pictures while I encountered this problem, but i found some pictures from someone having the same problem as i did.
