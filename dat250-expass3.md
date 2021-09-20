@@ -27,6 +27,12 @@ Delete:
 
 ![image](https://user-images.githubusercontent.com/46929671/134018319-b5ff1a50-4eca-4aea-acb8-71a0bc8e75e1.png)
 
+Bulk write:
+
+![image](https://user-images.githubusercontent.com/46929671/134020063-2db10b0a-6d29-4c13-8e86-e6f8e04e16d5.png)
+
+![image](https://user-images.githubusercontent.com/46929671/134020146-b45bec94-213c-4484-b45b-8a9494e3eca9.png)
+
 
 
 
