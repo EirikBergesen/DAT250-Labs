@@ -34,6 +34,17 @@ Bulk write:
 ![image](https://user-images.githubusercontent.com/46929671/134020146-b45bec94-213c-4484-b45b-8a9494e3eca9.png)
 
 
+#### Experiment 2:
+
+Map reduce code:
+var mapFunction = function() {emit(this._id, this.lvl);}
+var reduceFunction = function(_id, lvl){return Array.sum(lvl);}
+db.characters.mapReduce(mapFunction,reduceFunction,{out:"map_reduce"})
+
+
+Picture:
+
+![image](https://user-images.githubusercontent.com/46929671/134033068-fa534fd8-a0d3-48e7-8f7b-4248d09ef56a.png)
 
 
 #### Installing MongoDB
