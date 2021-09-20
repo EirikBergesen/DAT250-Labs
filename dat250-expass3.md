@@ -1,5 +1,8 @@
 #### Mandatory assignment 3
 
+
+#### Experiment 1:
+
 Verifying mongodb using sha256:
 
 ![image](https://user-images.githubusercontent.com/46929671/133789723-7b8e8208-a2df-412f-86a2-e829f251e4ea.png)
@@ -9,6 +12,16 @@ Insert:
 
 ![image](https://user-images.githubusercontent.com/46929671/134016944-78adfa86-ce9d-4397-8785-25730c34d9fa.png)
 
+
+Query:
+
+![image](https://user-images.githubusercontent.com/46929671/134017417-7aeeef12-dfd6-420d-9225-0fc30b1b6c94.png)
+
+Note: Planner occurs twice here because I continued on with the assignement and forgot to take a screenshot at this point. In one of the next steps planner is added a second time, but I still think this proves I can do a siple query.
+
+Update:
+
+![image](https://user-images.githubusercontent.com/46929671/134017843-b4bb76f1-63ca-4030-9705-8ed71f3f29ac.png)
 
 
 
