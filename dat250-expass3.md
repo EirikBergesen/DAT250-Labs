@@ -1,3 +1,9 @@
+#### Mandatory assignment 3
+
+Verifying mongodb using sha256:
+![image](https://user-images.githubusercontent.com/46929671/133789723-7b8e8208-a2df-412f-86a2-e829f251e4ea.png)
+
+
 
 
 
@@ -17,10 +23,4 @@ https://stackoverflow.com/questions/52092528/mongodb-community-error-when-instal
 
 
 ##### Solution: It turned out the username and password required was for my local windows sign-in. Woopsie.
-
-Not a problem, but felt i could include this:
-![image](https://user-images.githubusercontent.com/46929671/133789723-7b8e8208-a2df-412f-86a2-e829f251e4ea.png)
-
-
-
 
