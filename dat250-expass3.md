@@ -23,6 +23,10 @@ Update:
 
 ![image](https://user-images.githubusercontent.com/46929671/134017843-b4bb76f1-63ca-4030-9705-8ed71f3f29ac.png)
 
+Delete:
+
+![image](https://user-images.githubusercontent.com/46929671/134018319-b5ff1a50-4eca-4aea-acb8-71a0bc8e75e1.png)
+
 
 
 
